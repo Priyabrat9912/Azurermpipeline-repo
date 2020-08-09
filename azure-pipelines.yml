@@ -20,4 +20,5 @@ steps:
     location: 'East US'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateWebapp/usingvariablestmp.json'
+    overrideParameters: -storagePrefix 'tester'
     deploymentMode: 'Incremental'
