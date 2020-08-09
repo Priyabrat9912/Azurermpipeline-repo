@@ -20,5 +20,4 @@ steps:
     location: 'East US'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateWebapp/usingvariablestmp.json'
-    overrideParameters: '-projectName testarmtemplate -TemplateUri https://raw.githubusercontent.com/Priyabrat9912/Azurermpipeline-repo/master/CreateWebapp/usingvariablestmp.json'
     deploymentMode: 'Incremental'
